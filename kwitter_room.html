@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter Room Page</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Vgu_NXif9P1KTi4r4UpeC718bwKazb_C-bmO4k6EH-wuaBR7DTSzD_lCGePcmlOpP0G49stVPz0ip8TMBQkVSR47Td-StKx1d7WwEA-ZRh1CZ-m4ci1x6W2Bx4gwogavxmUM6PznzAz2mfK8kGIA3RAsXwZvff-md69Vp6leFHbqn53uItPLZ6K6qsl5ka7o7dGlLZ-T2qzQoQSwZYLgWTdJZNVPZdcqIAaF-XYtMSHcB2u1W27KGuGV2D61Laj4YLGiONCyfI9tF0qw-djNnmMVxwnrwGsCNUOgDW43_1jSHhCH5VCBq3zgl-_3d5VDQ3U-ehqqDDXGqILTyPupvyXGFkhXaCVHe_fXa105OhfNMDKTAIpBkYkUxcGJNjjhEXFTWNYNX8tVn7nhRWPO2Znrb3gVsMPKOw5WU0jhzicVspGyulIh0ooOsNQqjAGKJMdvRoAvuRN0zn5pTbY6qKDqqPwavaxthjlq6al-G6tYqOOCq-5a8fF6r5O_SKc6tdgXO9-DjTn6gWFMdCnMemD5KianK1uJG4IThg_Eo1--kdwi1vbfCCchzJA-2dINd2c_kAy7W5XerbBl6jSLtdVOdTRopJXdx0DIrxEkLGDwXy_G3eGZlHaa4092S6pbAZRRsf5cBdnUgGJ9CV8kqFNQUoi0ULpTPHag8XlKSiFY4yPHWchxcZ8b4uGPNJDy8pzp37zm4WR5P89A0HHuawXAUMZEXAGuyz3xSEGcJVp7HuUaTyjDn7500DMr9zyPbNnxmIZpCHtWGjzCYZ5Q3wPdX2szhGxssIgoXThS41N8aTKzA84qtGD-n5DuxKoCSy_dQEemGaGLP_N2CGL8KZo2fGtTHFY5znwce2P7SNzp7IDNVbMFT3F0msd58uYpHZCIIP2xiQP2emQHY7Tjt-ezOrvZTQzFvrTynTzjqUzgUjRp5lzOlGC-dnsPb0NQr0IaGa68sJqO3Z1ud9xfZFq40Koc1okd_1cskVlmrWyCKT7_NOcAc9DBIYx4MHEWHH13rywy2A1AFOWemiSmD1oFcvlWM4lHhvTAqJMrqpkgKj_Wm9ySVE2pZEvaR2n5p1F3Y30qHntmlPUVD7qMZJNuFQgYf2GG2OTtsxYXMx-yBzkDTsNpZgqXydHRJwW2FUQJYmSbcljpXgUY9YbTFDuhXrHYXr9_9dysSo4vj8Hz3SsD8Q42Y1dn2kc_RbSvRa_DS9QEzkg3YteH9u5rsQ" nonce="6260c55f1043a9278e5133db0c97ccb1" charset="UTF-8"></script><script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+
+<div class="container">
+	<button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+
+	<center>
+		<h1  class="header">	
+			Kwitter	
+			<sup>
+				<img src="m2.png">
+			</sup>
+		</h1>
+		<h3 id="user_name" class="color_white"></h3>
+
+		<div class="form-group input_div_room_page">
+			<label>#Add Room:</label>
+			<input type="text" id="room_name" class="form-control" placeholder="#Room Name">
+		</div>
+		
+		<button onclick="addRoom();" class="btn btn-success">#Add Room</button>
+
+		<h3 class="color_white">#TRENDINGROOMS</h3>
+
+		<div id="output"></div>
+		
+	</center>
+</div>
+
+
+<script src="kwitter_room.js"></script>
+</body>
+</html>

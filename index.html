@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwiter</title>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=IaE2A5Ln73VxNDiY-8ye6zUy5dihopKOx_6uSe2TTCOIjlkOvIG3cuGZlcb5ZyEBWEZ-4_W16l0SPkNCV7dVF66OTZhb9ewORxySA2EZeQ_efziRZHgEZeMby1fycxZnzBGV37pCO5FCKFcJ5FJAUqTpUpM9YV8DmLDV_R8oP7TzzHTmteYc1tan8J_ggqtmSdqfex8QL8KnqnPJ3YLe_gJpEvH1lt2OO8voXb_zd9hEXTcBI-eQZwSGugOFLuyxfE7jq1uWSW5pt5OgOvIaSC0RIt7A6Ffq2Ik_IrB8HYYKmVsiKbVk2gxevtxm37W7aOQ4wyFk-wYmran-a7PpB3s6VKU7swhl9fuC5ErYxso1l2KlI9VDu5IPr-1ovaepByhshkmiOH7v9APoJdb_f8x4JTnN0db6YSYWxcLHwvqxp-PlC7S0AZCqNHrMGVbbuTHnjBzzJZeYP5cPsyo_hKXz22_dwCmJ9Jiff9k2j6c_qSyC6A-HYXc--8SDYcK-hwvXsFkihs4A5SeKO6Vv1MXAhXWXtw3resfniWTi81sXFwB23AxBsOPp0QTtQSLVJKUy8ck0t5Rea84HX55-uQpFmY9mpIFGFsNlLLRtq-YrLu28QtzkURn5NRFwMWZQbzQi5cJ3bvWo6_AGqQp6765vgddVAnN03GYVT2P-8M1vSth2maW0aMVpI0YddDBw8rkgzsM_gLMX41iZAQY43c9yUkM3qtChacGa3m5cj_ElOzGRh1pe6wLNBq0o3WHkln6thb-Mfv6xYMNKDsM_w7j9Lcn3RoQcM2ofeciX_TS4W7oGoyrP5CLHlWoV57dQP4OMiuWsWZ6k3dIXG3aXd8MuEiaQvmNjlPHOt38qnA_bq5LF9yPOAmnwIsKFzTd0GsePHZTb1LU-KTfomb__sQSyZ8VljSUgBu67B2OHQTus0qsabu-U8GamlFu-RsUjrnT-t1kZQPSR7beNfT6ESp0wE9nms2FqykDvPTlxri7IlO9EmDjrG82GCXlM6aL8u4L1oAnohXAKOHjD2Sfokvzy60yHyDHzMV2-KNaD964DeUddE-6nFecBGIJ1MCBhOqnMeNiGqd84EhByMgJagHWl5OoClYdvhRny4YKAPF10HKfE6ZMOeI70DIhP_ZfyZwonVDnTh4NI-tCpJElRg42PT4Z465vXZcpJ4XU1wAX-ltI-gqyQJAa5PtaPkI48hlU4DHaamGe7KZachau55w" nonce="0b7df3cd036274ce5c4deec3ba29cfed" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter.js"></script>
+</head>
+<body>
+
+<center>
+	<h1 class="header">	
+		Kwitter	<sup>
+	<img src="m2.png">
+	</sup>
+    </h1>
+
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+
+	<img src="logo.png" class="logo">
+		<h3 >See what is happening in the world right now</h3>
+
+		<h4 >Join Kwitter today</h4>
+		
+		<div class="form-group">
+		  <label >User Name:</label>
+		 <input type="text" id="user_name" class="form-control" placeholder="User Name">
+		</div>
+
+		<button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
+		<br><br>
+	</div>
+</center>
+
+</body>
+</html>
